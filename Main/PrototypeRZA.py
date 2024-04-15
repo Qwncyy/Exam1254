@@ -3,6 +3,13 @@ from tkinter import *
 from customtkinter import *
 import customtkinter
 
+widget = CTk()
+
+
+
+class MenuBar():
+    root = CTk
+
 
 class HomePage():
 
@@ -13,7 +20,7 @@ class HomePage():
         customtkinter.set_appearance_mode('dark')
         home.title('Riget Zoo Adventures')
         home.geometry('600x350')
-    
+
 
         home.mainloop()
     Startup()
